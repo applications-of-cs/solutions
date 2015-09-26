@@ -8,6 +8,8 @@ def expFromAdd(a,b):
     >>> expFromAdd(5,5)
     3125
     """
+	if (b == 0):
+		return 1
 	result = 1
 	for c1 in range(0, b):
 		temp = 0
