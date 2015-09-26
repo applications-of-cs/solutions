@@ -9,9 +9,9 @@ def expFromAdd(a,b):
     3125
     """
 	result = 1
-	for j in range(0, b):
+	for c1 in range(0, b):
 		temp = 0
-		for j in range(0, a):
+		for c2 in range(0, a):
 			temp += result
 		result = temp
 	return result
